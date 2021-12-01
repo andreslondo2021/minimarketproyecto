@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+    height: 100vh;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden
+}
+
+
+
+.divprincipal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    min-height: 200px;
+    background: #a19b9b;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box
+}
+
+.usario {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #59238F;
+    text-align: center
+}
+
+.divprincipal input {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.divprincipal input[type="text"],
+.divprincipal input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #2a9fd4;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+
+.divprincipal input[type="text"]:hover,
+.divprincipal input[type="password"]:hover {
+    color: #42F3FA;
+    border: 1px solid #42F3FA;
+    box-shadow: 0 0 5px rgba(0, 255, 0, .3), 0 0 10px rgba(0, 255, 0, .2), 0 0 15px rgba(0, 255, 0, .1), 0 2px 0 black
+}
+
+.divprincipal input[type="text"]:focus,
+.divprincipal input[type="password"]:focus {
+    border-bottom: 2px solid #42F3FA
+}
+
+.divusuariocontra {
+    position: relative
+}
+
+.divusuariocontra span {
+    position: absolute;
+    top: 10px;
+    color: #262626
+}
+
+.divprincipal input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #59238F;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer
+    
+}
+
+.divprincipal a {
+    color: #262626;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block
+}
+
+a:hover {
+    color: #00ffff
+}

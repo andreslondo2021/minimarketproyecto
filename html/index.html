@@ -11,33 +11,20 @@
 <body>
 
     <div> <h1>Minimarket Information</h1></div>
-<div>
-<form action="" style="background-color: red;"> 
-    <ul>
-        <li>
-            <label for="nombre">NOMBRE</label>
-            <input type="text">
-        </li>
-        <li>
-            <label for="psw">Contraseña</label>
-            <input type="text">
-        </li>
-        <li>
-            <button type="submit">Ingresar</button>
-        </li>
-        <li>
-           <p>
-               <a href="../html/recuperarclave.html">¿olvido su contraseña?</a>
-           </p>
-        </li>
-
-
-
-
-
-    </ul>
-</form>
-</div>
+    <div class="divprincipal"> <img class="usuario" src="../img/iconouser.png" height="100px" width="100px">
+       <br><br> <h3>ingreso</h3>
+        <form action="" method="post">
+            <div class="divusuariocontra"> <input id="uname" type="text" name="Username" placeholder="Usuario">
+                 <input id="pass" type="password" name="Password" placeholder="contraseña"> 
+                 <a href="../html/pagprincipal.html">
+                 <input type="button" name="" value="ingresar">
+                </a>
+            </div> 
+            
+        </form>
+        <a href="../html/recuperarclave.html">Recuperar contraseña<br> </a>
+      
+    </div>
 
 
 
